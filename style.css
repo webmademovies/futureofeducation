@@ -1,0 +1,110 @@
+body {
+	font-family: Arial;
+	overflow:hidden;
+}
+h1 {
+	font-weight: bold;
+	font-size: 4.75em;
+	letter-spacing: -2px;
+	line-height: 0.9em;
+	text-align: center;
+	text-shadow: 0 0 4px #FFF;
+}
+
+#console{
+	padding:10px;
+	position:absolute;
+	bottom:0;
+	right:0;
+	background: green;
+	font-weight:bold;
+	color:#fff;
+}
+
+figure {
+	padding: 10px;
+	background: -moz-linear-gradient(left,  #EEE,  #FFF);
+	background: -webkit-gradient(linear, left top, right bottom, from(#EEE), to(#FFF));
+	display: inline-block;
+	-moz-box-shadow: 1px 1px 4px #666;
+	-webkit-box-shadow: 1px 1px 4px #666;
+	box-shadow: 1px 1px 4px #666;
+	margin: auto;
+	position: absolute;
+	top:250px;
+}
+figure img {
+	display: block;
+}
+
+.tweet {
+	display: block;
+	width: 180px;
+	color: #666;
+	font-size: 0.9em;
+}
+
+#video{
+	text-align:center;
+	margin-top:100px;
+}
+
+#player{
+	margin:auto;
+}
+
+div.tweet1 {
+		position:absolute;
+		overflow:hidden;
+		background-color: #E9c971;
+		padding: 12px;
+		font-family: Arial, sans-serif;
+		line-height: 1.2em;
+		width: 250px;
+		-moz-border-radius: 10px;
+		font-weight:bold;
+		
+}
+div.tweet2 {
+	position:absolute;
+	overflow:hidden;
+	font-weight:bold;
+		background-color: #AFCB3B;
+		padding: 12px;
+		font-family: Arial, sans-serif;
+		line-height: 1.2em;
+		width: 250px;
+		-moz-border-radius: 10px;
+}
+div.tweet3 {
+	position:absolute;
+	overflow:hidden;
+	font-weight:bold;
+	
+		background-color: #CBB189;
+		padding: 12px;
+		font-family: Arial, sans-serif;
+		line-height: 1.2em;
+		width: 250px;
+		-moz-border-radius: 10px;
+}
+div.tweet0 {
+	position:absolute;
+	overflow:hidden;
+	font-weight:bold;
+	
+		background-color: #93cfce;
+		padding: 12px;
+		font-family: Arial, sans-serif;
+		line-height: 1.2em;
+		width: 250px;
+				-moz-border-radius: 10px;
+}
+
+.srt{
+	font-size:1.8em;
+	color: #888;
+	width:800px;
+	margin:20px auto;
+	font-weight:bold;
+}

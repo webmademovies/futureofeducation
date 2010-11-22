@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+ 
+<html lang="en"> 
+<head> 
+	 
+<meta charset="utf-8" /> 
+ 
+		
+<title>#drumbeat video example</title> 
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript"></script>  
+
+<script src="scripts.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="jquery.srt.js" type="text/javascript" charset="utf-8"></script>
+
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="Styles" charset="utf-8" />
+
+<script type="text/javascript">
+
+</script>
+
+</head>
+
+<body>
+	<h1>The future of education</h1>
+	<div id="video">
+		<video id="player" width="800px" height="450px" autoplay>
+      <!-- TODO: this needs to get hosted on video.mozilla.org, please don't abuse this host -->
+			<source src="http://audioscene.org/scene-files/humph/drumbeat/future-of-education/video/dbf.ogg" type='video/ogg; codecs="theora, vorbis"'> 
+		</video>
+		
+		<div class="srt" data-video="player" data-srt="video.srt"></div>
+		
+	</div>
+	
+	
+	<div id="console">
+		0
+	</div>
+
+	
+</body>
+</html>
